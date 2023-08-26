@@ -1,0 +1,36 @@
+/* responsive design */
+@media (max-width:1024px) {
+    .container{
+        margin-top: 70%;
+        flex-direction: column-reverse;
+        padding: 0 180px;
+        height: 100%;
+    }
+    .brand{
+        min-width: 310px;
+        margin: 40px 0;
+        text-align: center;
+    }
+    .details{
+        display: flex;
+        justify-content: center;
+    }
+    .details p{
+        max-width: 82%;
+        text-align: center;
+    }
+    .achievements{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .achievements div{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    img{
+        width: 360px !important;
+        height: 100% !important;
+        border-radius: 8px;
+    }
+}
